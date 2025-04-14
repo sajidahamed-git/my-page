@@ -8,12 +8,12 @@ export default function Projects() {
       {
         title: "Resume Builder",
         description: "A lightweight and user-friendly tool that helps you craft clean, professional resumes in minutes.",
-        url: "https://your-shopping-cart-link.com",
+        url: "https://resumebuilder.sajidahamed.com",
       },
       {
         title: "Battleship",
         description: "A classic naval warfare game reimagined for the browser, delivering a smooth and interactive experience.",
-        url: "https://your-dashboard-link.com",
+        url: "https://battleship.sajidahamed.com",
       },
       {
         title: "Instant Messaging App (under development)",
