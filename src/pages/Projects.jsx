@@ -1,0 +1,40 @@
+export default function Projects() {
+    const projects = [
+      {
+        title: "To-Do and Notes App",
+        description: "A sleek and minimal productivity app built using JavaScript and TailwindCSS, designed to help you stay organized with ease.",
+        url: "https://tasks.sajidahamed.com",
+      },
+      {
+        title: "Resume Builder",
+        description: "A lightweight and user-friendly tool that helps you craft clean, professional resumes in minutes.",
+        url: "https://your-shopping-cart-link.com",
+      },
+      {
+        title: "Battleship",
+        description: "A classic naval warfare game reimagined for the browser, delivering a smooth and interactive experience.",
+        url: "https://your-dashboard-link.com",
+      },
+    ];
+  
+    return (
+      <div className="max-w-5xl mx-auto mt-10 px-4 text-white">
+        <h2 className="text-3xl font-semibold mb-6 text-center">Projects</h2>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {projects.map((project, index) => (
+            <a
+              key={index}
+              href={project.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block bg-gray-800 hover:bg-gray-700 p-6 rounded-xl shadow transition cursor-pointer"
+            >
+              <h3 className="text-xl font-bold mb-2">{project.title}</h3>
+              <p className="text-gray-300">{project.description}</p>
+            </a>
+          ))}
+        </div>
+      </div>
+    );
+  }
+  
