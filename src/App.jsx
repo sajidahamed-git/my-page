@@ -20,7 +20,7 @@ export default function App() {
 
   return (
     <div>
-      <Navbar setPage={setPage} />
+      <Navbar setPage={setPage} page = {page} />
       <div className="p-4">{renderPage()}</div>
     </div>
   );
