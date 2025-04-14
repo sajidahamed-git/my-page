@@ -15,6 +15,19 @@ export default function Projects() {
         description: "A classic naval warfare game reimagined for the browser, delivering a smooth and interactive experience.",
         url: "https://your-dashboard-link.com",
       },
+      {
+        title: "Instant Messaging App (under development)",
+        description: "Inspired by popular platforms like WhatsApp, Telegram, and Discord",
+        
+      },
+      {title:'Wheres Waldo (under development)',
+        description:'A fun and challenging visual puzzle game where your goal is simple: find Waldo hidden in a crowded scene!'
+      },
+      {
+        title: "Blog API (under development)",
+        description: "This project focuses on building a robust API-only backend for a blog platform.",
+        
+      },
     ];
   
     return (
