@@ -6,15 +6,14 @@ export default function Home() {
 
       {/* Description */}
       <p className="text-gray-700 leading-relaxed text-lg">
-        I'm <span className="font-semibold ">Sajid</span>, a passionate web developer focused on building responsive,
-        user-friendly web applications using modern tools like React, Tailwind CSS, and Vite. I love learning new tech and
-        building fun side projects that solve real problems or just look cool!
+        I'm a full stack web developer, I've been working with React and node.js for over 3 years.
+
+      </p>
+      <p className="mt-4 text-gray-700 leading-relaxed text-lg">
+        I specialize in building complete solutions, handling everything from intuitive frontends to robust middleware, APIs, and scalable databases.
       </p>
 
-      <p className="mt-4 text-gray-700 leading-relaxed text-lg">
-        When I'm not coding, you can usually find me exploring design trends, contributing to open source, or just
-        watching tech videos and gaming.
-      </p>
+
 
       {/* Contact Info */}
       <div className="mt-8 border-t border-gray-700 pt-6 text-gray-700 space-y-2">

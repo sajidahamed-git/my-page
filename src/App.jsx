@@ -1,27 +1,20 @@
-import { useState } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
-import About from "./pages/About";
+import Resume from "./pages/Resume";
 import Projects from "./pages/Projects";
 
 export default function App() {
-  const [page, setPage] = useState("home");
-
-  const renderPage = () => {
-    switch (page) {
-      // case "about":
-        // return <About />;
-      case "projects":
-        return <Projects />;
-      default:
-        return <Home />;
-    }
-  };
-
   return (
-    <div>
-      <Navbar setPage={setPage} page = {page} />
-      <div className="p-4">{renderPage()}</div>
-    </div>
+    <Router>
+      <Navbar />
+      <div className="p-4">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/resume" element={<Resume/>} />
+          <Route path="/projects" element={<Projects />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
