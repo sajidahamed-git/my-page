@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div className="max-w-2xl mx-auto mt-10 px-4 ">
+    <div className="max-w-2xl mx-auto  px-4 ">
       {/* Big HI */}
       <div className="text-5xl font-extrabold mb-6">Hi!</div>
 
@@ -11,6 +11,17 @@ export default function Home() {
       </p>
       <p className="mt-4 text-gray-700 leading-relaxed text-lg">
         I specialize in building complete solutions, handling everything from intuitive frontends to robust middleware, APIs, and scalable databases.
+
+      </p>
+
+      <p className="mt-4 text-gray-700 leading-relaxed text-lg">
+        Checkout the projects section to see some of my work, or visit my GitHub profile for more details.
+      </p>
+
+      <p className="mt-4 text-gray-700 leading-relaxed text-lg">
+        I'm actively seeking new opportunities to collaborate on innovative projects. If you have something exciting in mind, I'd love to connect and discuss how we can work together!
+        <br />
+        You can also check out my resume for a detailed overview of my skills and experience.
       </p>
 
 
