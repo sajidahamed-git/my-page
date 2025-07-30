@@ -55,7 +55,7 @@ export default function Navbar() {
               Projects
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link
               to="/resume"
               className={clsx(
@@ -67,7 +67,7 @@ export default function Navbar() {
             >
               Resume
             </Link>
-          </li>
+          </li> */}
         </ul>
       </div>
     </nav>
