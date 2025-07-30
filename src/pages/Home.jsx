@@ -6,7 +6,7 @@ export default function Home() {
 
       {/* Description */}
       <p className="text-gray-700 leading-relaxed text-lg">
-        I'm a full stack web developer, I've been working with React and node.js for over 3 years.
+        I'm a full stack web developer, I've been working with React, Next and node.js.
 
       </p>
       <p className="mt-4 text-gray-700 leading-relaxed text-lg">
