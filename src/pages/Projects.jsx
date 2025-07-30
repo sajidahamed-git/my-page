@@ -1,5 +1,10 @@
 export default function Projects() {
     const projects = [
+            {
+        title: "Cipher Docs",
+        description: "End-to-end encrypted online text editor ",
+        url: "https://cipherdocs.sajidahamed.com",
+      },
       {
         title: "To-Do and Notes App",
         description: "A sleek and minimal productivity app built using JavaScript and TailwindCSS, designed to help you stay organized with ease.",
